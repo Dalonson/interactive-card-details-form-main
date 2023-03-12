@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/images/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 40vw 2500vh;
+  background-position: left;
+}
+
+#main-content-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+  margin: auto;
+  max-width: 1440px;
+}
+
+#credit-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#content-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 100px;
+}
+
+.cc-front {
+  background-image: url(/images/bg-card-front.png);
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 450px;
+  position: relative;
+}
+
+.cc-front #card-logo {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  width: 75px;
+}
+
+.cc-front #card-number {
+  color: white;
+  font-size: 33px;
+  position: absolute;
+  bottom: 90px;
+  left: 40px;
+}
+
+.cc-front #card-holder-name {
+  color: white;
+  position: absolute;
+  font-size: 15px;
+  bottom: 35px;
+  left: 40px;
+}
+
+.cc-front #exp-date {
+  color: white;
+  position: absolute;
+  font-size: 15px;
+  bottom: 35px;
+  right: 40px;
+}
+
+.cc-front #exp-date-year {
+  color: white;
+  position: absolute;
+  font-size: 15px;
+  bottom: 35px;
+  right: 20px;
+}
+
+.cc-back {
+  background-image: url(/images/bg-card-back.png);
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.cc-back #cvc {
+  color: white;
+  position: absolute;
+  top: 110px;
+  right: 75px;
+}
+
+form {
+  width: 500px;
+}
+
+form label {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+form input {
+  height: 35px;
+  width: 300px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #dedddf;
+}
+
+form input:focus {
+  outline: 1px solid #600594;
+}
+
+form input:invalid {
+  outline: 1px solid #ff5252;
+  color: #ff5252;
+}
+
+form placeholder {
+  color: #dedddf;
+  font-size: 1px;
+}
+
+form #input-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form #date-cvc-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+form #date-month-input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7px;
+}
+
+form #cvc-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form #sml-inp {
+  width: 60px;
+}
+
+form #cvc-input {
+  width: 165px;
+}
+
+#confirm-btn,
+#continue-btn {
+  width: 300px;
+  height: 37px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #21092f;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#thank-you-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#thank-you-container #complete-icon {
+  margin-bottom: 20px;
+}
+
+#thank-you-container #thank-you {
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #21092f;
+}
+
+#thank-you-container #added-card {
+  color: #8e8593;
+}
+/*# sourceMappingURL=main.css.map */
